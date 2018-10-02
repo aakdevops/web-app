@@ -17,7 +17,7 @@ pipeline{
                                                 """
                                         ).trim()
                 if ( resp == "200" ) {
-                        println "tutum hello world is alive and kicking!
+                        println "tutum hello world is alive and kicking!"
                         currentBuild.result = "SUCCESS"
 			}
                      else {
